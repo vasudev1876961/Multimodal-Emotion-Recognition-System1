@@ -1,0 +1,40 @@
+# Virtual Environment
+emoenv/
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+temp/
+tmp/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Dataset test caches (optional)
+data/face/train/
+data/face/test/
+
+# If models become too large later
+models/text_model/emotion_roberta/model.safetensors
+models/text_model/quantized_roberta.pth

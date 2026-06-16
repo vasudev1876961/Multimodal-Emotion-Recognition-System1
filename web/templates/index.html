@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emotion AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="card">
+
+    <h1>🧠 Multimodal Emotion Detection</h1>
+
+    <!-- TEXT INPUT -->
+    <label>Enter text:</label>
+    <textarea id="textInput" placeholder="Type your text here..."></textarea>
+
+    <!-- VIDEO -->
+    <video id="video" autoplay></video>
+
+    <button onclick="captureAndSend()">Run Emotion Detection</button>
+
+    <!-- RESULT -->
+   <div class="result-box">
+
+        <h2>Emotion Analysis Result</h2>
+
+        <p>
+            <strong>Final Emotion:</strong>
+            <span id="finalEmotion"></span>
+        </p>
+
+        <p>
+            <strong>Confidence:</strong>
+            <span id="finalConfidence"></span>
+        </p>
+
+        <p>
+            <strong>Decision:</strong>
+            <span id="decision"></span>
+        </p>
+
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
