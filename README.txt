@@ -237,8 +237,8 @@ while maintaining acceptable accuracy.
 
 1. Clone the Repository
 
-git clone https://github.com/poojitha-t06/Multimodal-Emotion-Recognition-System.git
-cd Multimodal-Emotion-Recognition-System
+git clone https://github.com/vasudev1876961/Multimodal-Emotion-Recognition-System1.git
+cd Multimodal-Emotion-Recognition-System1
 
 
 2. Create Virtual Environment
