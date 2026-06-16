@@ -22,7 +22,7 @@ This project combines **Natural Language Processing (NLP)** and **Computer Visio
 ```bash
 git clone https://github.com/vasudev1876961/Multimodal-Emotion-Recognition-System1.git
 
-cd Multimodal-Emotion-Recognition-System
+cd Multimodal-Emotion-Recognition-System1
 ```
 
 ---
